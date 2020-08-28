@@ -1,0 +1,184 @@
+@import "../static/styles/bootstrap-grid.min.css";
+// @import "../static/styles/slick.css";
+// @import "../static/styles/slick-theme.css";
+
+@font-face {
+	src:
+		url("../static/fonts/ProximaNova-Regular.woff2") format("woff2"),
+		url("../static/fonts/ProximaNova-Regular.woff") format("woff");
+	font-family: "Proxima Nova";
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	src:
+		url("../static/fonts/ProximaNova-Semibold.woff2") format("woff2"),
+		url("../static/fonts/ProximaNova-Semibold.woff") format("woff");
+	font-family: "Proxima Nova";
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	src:
+		url("../static/fonts/ProximaNova-Bold.woff2") format("woff2"),
+		url("../static/fonts/ProximaNova-Bold.woff") format("woff");
+	font-family: "Proxima Nova";
+	font-weight: 700;
+	font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+a,
+button,
+input,
+textarea {
+	&:hover,
+	&:focus,
+	&:active {
+		// stylelint-disable-next-line declaration-no-important
+		outline: none !important;
+	}
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+	font-family: 'Proxima Nova', sans-serif;
+}
+
+.site-container {
+	@media (max-width: 991px) {
+		padding-top: 80px;
+	}
+}
+
+.container {
+	@media (min-width: 992px) and (max-width: 1439px) {
+    max-width: 1200px;
+	}
+
+  @media (min-width: 1440px) {
+    max-width: 1470px;
+	}
+}
+
+.container-small {
+	@media (min-width: 1440px) {
+    max-width: 1200px;
+	}
+}
+
+.slick-list {
+	overflow: hidden;
+}
+
+.slick-track {
+	display: flex;
+}
+
+.slick-slide {
+	outline: none !important;
+
+	* {
+		outline: none !important;
+	}
+
+	> div {
+		height: 100%;
+	}
+}
+
+.reviews-slider {
+	position: relative;
+	padding-bottom: 50px;
+
+	.slick-arrow {
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		z-index: 2;
+		overflow: hidden;
+		border: none;
+		border-radius: 50%;
+		padding: 0;
+		width: 50px;
+		height: 50px;
+		font-size: 0;
+		cursor: pointer;
+
+		&::before,
+		&::after {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 0;
+			overflow: hidden;
+			border-radius: 50%;
+			width: 100%;
+			height: 100%;
+			transition: opacity 0.3s;
+		}
+
+		&::before {
+			background: #E7ECF4 url("../public/images/arrow.svg") no-repeat center;
+		}
+
+		&::after {
+			background: #214C9E url("../public/images/arrow-active.svg") no-repeat center;
+			opacity: 0;
+		}
+
+		&.slick-prev {
+			margin-left: -60px;
+		}
+
+		&.slick-next {
+			margin-left: 10px;
+			transform: rotate(180deg);
+		}
+
+		&:hover {
+			&::before {
+				opacity: 0;
+			}
+
+			&::after {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.headerOpened {
+	opacity: 1 !important;
+	transform: translateX(0) translateZ(0) !important;
+	pointer-events: auto !important;
+}
+
+.is-overflow-hidden {
+	height: 100vh;
+	overflow: hidden !important;
+}
+
+.burgerActive {
+	img {
+		&:nth-child(1) {
+			opacity: 0 !important;
+		}
+
+		&:nth-child(2) {
+			opacity: 1 !important;
+		}
+	}
+}

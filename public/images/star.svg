@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+	<defs>
+		<clipPath id="star-a">
+			<path fill="none" d="M8 0l2.5 5.5L16 6l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5z"/>
+		</clipPath>
+	</defs>
+	<g data-name="Mask Group 6">
+		<g clip-path="url(#star-a)" data-name="Icon Color">
+			<path fill="none" d="M0 0h16v16H0z" data-name="3. Color / 1. Yellow / 1 background"/>
+			<path fill="#ffde3b" d="M0 0h16v16H0z"/>
+		</g>
+	</g>
+</svg>

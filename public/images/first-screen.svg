@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920.501" height="845.782" data-name="Component 7 – 1" viewBox="0 0 1920.501 845.782">
+	<defs>
+		<filter id="first-screen-c" width="590.836" height="590.835" x="-268.155" y="-102.667" filterUnits="userSpaceOnUse">
+			<feOffset dy="3"/>
+			<feGaussianBlur result="blur" stdDeviation="3"/>
+			<feFlood flood-opacity=".161"/>
+			<feComposite in2="blur" operator="in"/>
+			<feComposite in="SourceGraphic"/>
+		</filter>
+		<filter id="first-screen-d" width="590.836" height="590.835" x="347.922" y="-49.667" filterUnits="userSpaceOnUse">
+			<feOffset dy="3"/>
+			<feGaussianBlur result="blur-2" stdDeviation="3"/>
+			<feFlood flood-opacity=".161"/>
+			<feComposite in2="blur-2" operator="in"/>
+			<feComposite in="SourceGraphic"/>
+		</filter>
+		<linearGradient id="first-screen-a" x1="-.104" x2="1.066" y1="-.109" y2="1.125" gradientUnits="objectBoundingBox">
+			<stop offset="0" stop-color="#74b1e0"/>
+			<stop offset="1" stop-color="#609ccb"/>
+		</linearGradient>
+		<clipPath id="first-screen-b">
+			<path fill="url(#first-screen-a)" d="M130.494 132h1920.031v591.332S794.617 1137.485 286.58 852.2C224.6 817.4 171.8 778.493 130.025 737c.217-308.171.469-605 .469-605z" data-name="1 st Shape" transform="translate(-130.525)"/>
+		</clipPath>
+	</defs>
+	<path fill="#74b1e0" d="M.485 1l1920.016 1v607.334S688.169 1015.667 174.5 763c-76.262-43.321-129-74-174-126C1.377 274.836.485 1 .485 1z" data-name="2nd Shape" opacity=".2"/>
+	<path fill="url(#first-screen-a)" d="M130.494 133h1920.031v590.332S794.617 1137.485 286.58 852.2C224.6 817.4 171.8 778.493 130.025 737c.217-308.171.469-604 .469-604z" data-name="1 st Shape" transform="translate(-130.025 -132)"/>
+	<g clip-path="url(#first-screen-b)" transform="translate(.5 -132)">
+		<g data-name="Pattern" opacity=".04">
+			<g data-name="Group 5776">
+				<g data-name="Group 5769">
+					<g data-name="Group 5763">
+						<g data-name="Group 5762">
+							<g data-name="Group 5761">
+								<path fill="#fff" d="M1297.756 815.923a47.823 47.823 0 0033.92-14.05l639-639a47.968 47.968 0 000-67.839 47.968 47.968 0 00-67.839 0l-639 639a47.971 47.971 0 000 67.84 47.823 47.823 0 0033.919 14.049z" data-name="Path 2813"/>
+							</g>
+						</g>
+					</g>
+					<g data-name="Group 5766">
+						<g data-name="Group 5765">
+							<g data-name="Group 5764">
+								<path fill="#fff" d="M1409.472 436.43a19.942 19.942 0 0014.143-5.857l532.834-532.836a20 20 0 000-28.284 20 20 0 00-28.284 0l-532.836 532.835a20 20 0 0014.143 34.142z" data-name="Path 2814"/>
+							</g>
+						</g>
+					</g>
+					<g data-name="Group 5767">
+						<path fill="#fff" d="M1630.214 666.122a4.984 4.984 0 003.535-1.464l532.836-532.835a5 5 0 000-7.071 5 5 0 00-7.071 0l-532.835 532.834a5 5 0 003.535 8.536z" data-name="Path 2815"/>
+					</g>
+					<g data-name="Group 5768">
+						<path fill="#fff" d="M1112.46 834.129a4.983 4.983 0 003.535-1.464l532.836-532.835a5 5 0 00-7.071-7.071l-532.835 532.835a5 5 0 000 7.071 4.983 4.983 0 003.535 1.464z" data-name="Path 2816"/>
+					</g>
+				</g>
+			</g>
+			<g data-name="Group 5775">
+				<g data-name="Group 5771">
+					<g data-name="Group 5769">
+						<g data-name="Group 5757">
+							<g data-name="Group 5756">
+								<g data-name="Group 5755">
+									<path fill="#fff" d="M22.833 911.999a49.848 49.848 0 0035.356-14.645L388.524 567.02a50 50 0 10-70.711-70.711L-12.522 826.643a50 50 0 0035.355 85.356z" data-name="Path 2811"/>
+								</g>
+							</g>
+						</g>
+						<g data-name="Group 5763">
+							<g data-name="Group 5762">
+								<g data-name="Group 5761">
+									<path fill="#fff" d="M-351.371 880.944a47.823 47.823 0 0033.92-14.05l639-639a47.968 47.968 0 000-67.839 47.968 47.968 0 00-67.839 0l-639 639a47.971 47.971 0 000 67.84 47.823 47.823 0 0033.919 14.049z" data-name="Path 2813"/>
+								</g>
+							</g>
+						</g>
+						<g filter="url(#first-screen-c)" transform="translate(-.497 132.003)">
+							<path fill="#fff" d="M-239.158 476.17a19.942 19.942 0 0014.143-5.857L307.819-62.523a20 20 0 000-28.284 20 20 0 00-28.284 0l-532.836 532.835a20 20 0 0014.143 34.142z" data-name="Path 2814"/>
+						</g>
+						<g data-name="Group 5767">
+							<path fill="#fff" d="M-18.913 774.953a4.984 4.984 0 003.535-1.464l532.836-532.835a5 5 0 000-7.071 5 5 0 00-7.071 0L-22.448 766.417a5 5 0 003.535 8.536z" data-name="Path 2815"/>
+						</g>
+					</g>
+					<g data-name="Group 5774">
+						<g data-name="Group 5757">
+							<g data-name="Group 5756">
+								<g data-name="Group 5755">
+									<path fill="#fff" d="M638.91 964.999a49.848 49.848 0 0035.356-14.645l330.335-330.334a50 50 0 10-70.711-70.711L603.555 879.643a50 50 0 0035.355 85.356z" data-name="Path 2811"/>
+								</g>
+							</g>
+						</g>
+						<g data-name="Group 5763">
+							<g data-name="Group 5762">
+								<g data-name="Group 5761">
+									<path fill="#fff" d="M264.706 933.944a47.823 47.823 0 0033.92-14.05l639-639a47.968 47.968 0 000-67.839 47.968 47.968 0 00-67.839 0l-639 639a47.971 47.971 0 000 67.84 47.823 47.823 0 0033.919 14.049z" data-name="Path 2813"/>
+								</g>
+							</g>
+						</g>
+						<g filter="url(#first-screen-d)" transform="translate(-.5 132.003)">
+							<path fill="#fff" d="M376.922 529.17a19.942 19.942 0 0014.143-5.857L923.899-9.523a20 20 0 000-28.284 20 20 0 00-28.284 0L362.779 495.028a20 20 0 0014.143 34.142z" data-name="Path 2814"/>
+						</g>
+						<g data-name="Group 5767">
+							<path fill="#fff" d="M597.164 827.953a4.984 4.984 0 003.535-1.464l532.836-532.835a5 5 0 000-7.071 5 5 0 00-7.071 0L593.629 819.417a5 5 0 003.535 8.536z" data-name="Path 2815"/>
+						</g>
+						<g data-name="Group 5768">
+							<path fill="#fff" d="M79.41 952.15a4.983 4.983 0 003.535-1.464l532.836-532.835a5 5 0 00-7.071-7.071L75.875 943.615a5 5 0 000 7.071 4.983 4.983 0 003.535 1.464z" data-name="Path 2816"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

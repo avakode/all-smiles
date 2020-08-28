@@ -1,0 +1,177 @@
+.footer {
+  margin-top: -140px;
+  padding-top: 227px;
+  padding-bottom: 86px;
+  background: linear-gradient(113deg, #74B1E0 0%, #609CCB 100%);
+
+  @media (max-width: 667px) {
+    padding-top: 200px;
+  }
+}
+
+.itemTitle {
+  margin: 0 0 5px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+
+.item {
+  @media (max-width: 667px) {
+    margin-bottom: 40px;
+  }
+}
+
+.footerNav {
+  list-style: none;
+  padding: 0;
+  margin: 3px 0 0;
+
+  li {
+    display: block;
+
+    a {
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 40px;
+      letter-spacing: 0px;
+      color: #fff;
+      transition: color 0.3s;
+
+      &:hover {
+        color: #B2D7F3;
+      }
+    }
+
+    &.isActive {
+      a {
+        color: #B2D7F3;
+        pointer-events: none;
+      }
+    }
+  }
+}
+
+.center {
+  margin-top: 3px;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: #fff;
+
+    span {
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    b {
+      width: 136px;
+    }
+  }
+}
+
+.content {
+  margin-top: -2px;
+
+  > div,
+  > a {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 15px;
+    text-decoration: none;
+
+    p {
+      margin: 0;
+      max-width: 180px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+
+      @media (max-width: 991px) {
+        max-width: calc(100% - 25px);
+      }
+    }
+  }
+
+  a {
+    &:hover {
+      p {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  margin-right: 5px;
+
+  img {
+    max-width: 100%;
+    transform: translateY(2px);
+  }
+}
+
+.logo {
+  margin: 70px auto 0;
+
+  img {
+    max-width: 187px;
+  }
+
+  @media (max-width: 667px) {
+    margin-top: 20px;
+  }
+}
+
+.copy {
+  margin-top: 32px;
+  justify-content: center;
+
+  span,
+  a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
+  span {
+    position: relative;
+    padding: 0 10px;
+
+    &::before {
+      content: "|";
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      font-size: 14px;
+      line-height: 25px;
+      color: #fff;
+    }
+  }
+
+  a {
+    margin: 0 10px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

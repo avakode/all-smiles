@@ -1,0 +1,212 @@
+.firstScreen {
+  position: relative;
+  overflow: hidden;
+  background: url("../../public/images/first-screen.svg") no-repeat center bottom;
+  background-size: cover;
+
+  &::before {
+    @media (max-width: 991px) {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 180px;
+      z-index: 2;
+      background-color: #fff;
+    }
+
+    @media (max-width: 667px) {
+      height: 100 / 375 * 100vmin;
+    }
+  }
+}
+
+.textblock {
+  padding-top: 115px;
+
+  @media (max-width: 1440px) and (min-width: 992px) {
+    padding-top: 115 / 1440 * 100vw;
+  }
+
+  @media (max-width: 667px) {
+    padding-top: 60 / 375 * 100vmin;
+  }
+}
+
+.pretitle {
+  display: block;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  letter-spacing: 0.3px;
+  color: #fff;
+
+  @media (max-width: 1440px) and (min-width: 992px) {
+    font-size: 30 / 1440 * 100vw;
+    line-height: 28 / 1440 * 100vw;
+    letter-spacing: 0.3 / 1440 * 100vw;
+  }
+
+  @media (max-width: 667px) {
+    font-size: 30 / 375 * 100vmin;
+    line-height: 28 / 375 * 100vmin;
+    letter-spacing: 0.3 / 375 * 100vmin;
+  }
+}
+
+.title {
+  margin: 50px 0 0;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 88px;
+  letter-spacing: 0.7px;
+  color: #fff;
+
+  @media (max-width: 1440px) and (min-width: 992px) {
+    margin: 50 / 1440 * 100vw 0 0;
+    font-size: 70 / 1440 * 100vw;
+    line-height: 88 / 1440 * 100vw;
+    letter-spacing: 0.7 / 1440 * 100vw;
+  }
+
+  @media (max-width: 667px) {
+    margin: 30 / 375 * 100vmin 0 0;
+    font-size: 40 / 375 * 100vmin;
+    line-height: 44 / 375 * 100vmin;
+    letter-spacing: 0.5 / 375 * 100vmin;
+  }
+}
+
+.subtitle {
+  margin: 34px 0 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.22px;
+  color: #fff;
+
+  @media (max-width: 1440px) and (min-width: 992px) {
+    margin: 34 / 1440 * 100vw 0 0;
+    font-size: 22 / 1440 * 100vw;
+    line-height: 28 / 1440 * 100vw;
+    letter-spacing: 0.22 / 1440 * 100vw;
+  }
+
+  @media (max-width: 667px) {
+    margin: 25 / 375 * 100vmin 0 0;
+    font-size: 22 / 375 * 100vmin;
+    line-height: 28 / 375 * 100vmin;
+    letter-spacing: 0.22 / 375 * 100vmin;
+  }
+}
+
+.buttons {
+  display: flex;
+  margin-top: 77px;
+
+  a {
+    display: flex;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 32px;
+    padding: 0 31px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.16px;
+    text-decoration: none;
+    transition: color 0.3s, background 0.3s, box-shadow 0.3s;
+
+    @media (max-width: 1440px) and (min-width: 992px) {
+      border-radius: 32 / 1440 * 100vw;
+      padding: 0 31 / 1440 * 100vw;
+      height: 50 / 1440 * 100vw;
+      font-size: 16 / 1440 * 100vw;
+      line-height: 20 / 1440 * 100vw;
+      letter-spacing: 0.16 / 1440 * 100vw;
+    }
+
+    @media (max-width: 667px) {
+      margin-top: 25 / 375 * 100vmin;
+    }
+  }
+
+  @media (max-width: 1440px) and (min-width: 992px) {
+    margin-top: 77 / 1440 * 100vw;
+  }
+
+  @media (max-width: 667px) {
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+}
+
+.buttonCovid {
+  margin-right: 20px;
+  color: #74B1E0;
+  background-color: #fff;
+  box-shadow: 0px 3px 16px #00000014;
+
+  &:hover {
+    color: #fff;
+    background: none;
+    box-shadow: none;
+  }
+
+  @media (max-width: 1440px) and (min-width: 992px) {
+    margin-right: 20 / 1440 * 100vw;
+  }
+
+  @media (max-width: 667px) {
+    margin: 0;
+  }
+}
+
+.buttonCheckin {
+  color: #fff;
+
+  &:hover {
+    color: #74B1E0;
+    background-color: #fff;
+  }
+}
+
+.image {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 58px;
+  min-height: 850px;
+
+  img {
+    width: 543px;
+    height: 629px;
+
+    @media (max-width: 1440px) and (min-width: 992px) {
+      width: 543 / 1440 * 100vw;
+      height: 629 / 1440 * 100vw;
+    }
+
+    @media (max-width: 667px) {
+      width: 250 / 375 * 100vmin;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 1440px) and (min-width: 992px) {
+    padding-bottom: 58 / 1440 * 100vw;
+    min-height: 850 / 1440 * 100vw;
+  }
+
+  @media (max-width: 991px) {
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  @media (max-width: 667px) {
+    margin-top: 30 / 375 * 100vmin;
+    padding-bottom: 50 / 375 * 100vmin;
+    min-height: 1px;
+  }
+}
