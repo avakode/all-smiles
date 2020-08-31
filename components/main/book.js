@@ -14,7 +14,9 @@ export function Book({ data }) {
             </div>
             <div className={`${classes.textblock} col-lg-7`}>
               <h2 className={classes.title}>{data.title}</h2>
-              <a href={data.button.fields.url} className={classes.button}>{data.button.fields.text}</a>
+              <a href={data.button.fields.url} className={classes.button} target="_blank">
+                {data.button.fields.text}
+              </a>
             </div>
           </div>
           ) : null}

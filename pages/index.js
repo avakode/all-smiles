@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import { MainLayout } from '../components/MainLayout';
 import { FirstScreen } from '../components/main/first-screen';
 import { Cards } from '../components/main/cards';
@@ -9,6 +8,7 @@ import { Book } from '../components/main/book';
 import { Services } from '../components/main/services';
 import { Map } from '../components/main/map';
 import fetchEntries from '../components/api/fetchEntries';
+import SiteHead from '../components/siteHead';
 
 function HomePage(props) {
   function checkFields(blockPosition) {
@@ -27,23 +27,7 @@ function HomePage(props) {
 
   return (
     <MainLayout>
-      <Head>
-        {
-          props.mainInfo
-            && props.mainInfo[0]
-            && props.mainInfo[0].fields ? <>
-              <title>{props.mainInfo[0].fields.siteTitle}</title>
-              <meta name="description" content={props.mainInfo[0].fields.siteDescription} />
-            </> : null
-        }
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        <link rel="manifest" href="/site.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-        <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />
-      </Head>
+      <SiteHead data={props} />
       <FirstScreen data={checkFields(0)} />
       <Cards data={checkFields(1)} />
       <Welcome data={checkFields(2)} />

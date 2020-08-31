@@ -17,7 +17,7 @@ export function Header({ isOpened, setOpened }) {
             <div className={`${classes.rightsideContainer} ${isOpened ? 'headerOpened' : ''}`}>
               <div className={`${classes.rightside} d-lg-flex align-items-center`}>
                 <Nav className={classes.nav} classIsActive={classes.isActive} />
-                <a href="" className={classes.button}>MAKE AN APPOINTMENT</a>
+                <a href="https://meva.app/practices/all-smiles-dental-spa/appointment" target="_blank" className={classes.button}>MAKE AN APPOINTMENT</a>
               </div>
             </div>
           </div>

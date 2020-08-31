@@ -39,9 +39,13 @@ export function Footer() {
               <div className={classes.center}>
                 {workingHours[0] && workingHours[0].fields && workingHours[0].fields.items.length > 0
                   ? workingHours[0].fields.items.map(item => (
-                    <div key={item.fields.day}>
+                    item.fields.schemaFormat ?
+                    (<div itemprop="openingHours" content={item.fields.schemaFormat} key={item.fields.day}>
                       <span>{item.fields.day}:</span> <b>{item.fields.time}</b>
-                    </div>
+                    </div>) :
+                    (<div key={item.fields.day}>
+                      <span>{item.fields.day}:</span> <b>{item.fields.time}</b>
+                    </div>)
                   )) : null}
               </div>
             </div>
@@ -68,7 +72,7 @@ export function Footer() {
                       <div className={classes.icon}>
                         <img src="/images/phone.svg" alt="" />
                       </div>
-                      <p>{mainInfo[0].fields.phone}</p>
+                      <p itemprop="telephone">{mainInfo[0].fields.phone}</p>
                     </a>
                   </>
                 )

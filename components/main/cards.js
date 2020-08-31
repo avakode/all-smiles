@@ -15,7 +15,9 @@ export function Cards({ data }) {
                   <h4 className={classes.title}>{item.fields.title}</h4>
                   <p className={classes.text}>{item.fields.text}</p>
                   {item.fields.button.fields ? (
-                    <a className={classes.button} href={item.fields.button.fields.url}>{item.fields.button.fields.text}</a>
+                    <a className={classes.button} href={item.fields.button.fields.url} target="_blank">
+                      {item.fields.button.fields.text}
+                    </a>
                   ) : null}
                 </div>
               </div>
